@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import argparse
-parser = argparse.ArgumentParser(description='BIDS App entrypoint script '
+from argparse import ArgumentParser
+parser = ArgumentParser(description='BIDS App entrypoint script '
                     'to extract time-series from resting-state.')
 parser.add_argument('bids_dir', help='The directory with the input dataset '
                     'formatted according to the BIDS standard.')
